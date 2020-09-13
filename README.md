@@ -4,7 +4,7 @@ Chatcord is a quick way to easily make your own Chat Bot with Javascript Easily 
 
 > Only the name is ChatCord but can be used be anywhere if you have right knowledge!
 
-![https://nodei.co/npm/chatcord](https://www.npmjs.com/package/chatcord)
+![https://nodei.co/npm/chatcord](https://www.npmjs.com/package/chatcord) 
 
 # Quick Example
 
