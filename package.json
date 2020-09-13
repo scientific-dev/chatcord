@@ -1,0 +1,15 @@
+{
+  "name": "chatcord",
+  "version": "0.0.2",
+  "description": "Simple NPM Package to make easy Chat Bot!",
+  "main": "index.js",
+  "keywords": ["quick.chat", "quickchat", "chatcord.js", "chatcord"],
+  "author": "science_spot_codes",
+  "contributors": ["gogeta"],
+  "license": "MIT",
+  "dependencies": {
+    "enhanced.db": "^0.1.1",
+    "md5": "^2.3.0",
+    "superagent": "^6.1.0"
+  }
+}
