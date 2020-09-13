@@ -2,6 +2,17 @@
 
 ---
 
+## v0.0.3
+
+**Important Updates:**
+- Bug Fix Again
+
+**All Updates:**
+- Bug Fix Again
+- Fixed Readme.md docs error
+
+---
+
 ## v0.0.2
 
 **Important Updates:**
