@@ -22,7 +22,7 @@ const options = {
 // Use Client Class
 const chat = new chatcord.Client(options)
 
-chat('Hey! How are you!').then(reply => {
+chat.chat('Hey! How are you!').then(reply => {
   console.log(reply)
   // The module will reply with the based on stimulus (1st parameter of the chat function!)
 })
