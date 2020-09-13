@@ -2,7 +2,7 @@
 
 Chatcord is a quick way to easily make your own Chat Bot with Javascript Easily with https://www.cleverbot.com/
 
-> Only the name is ChatCord but can be used be anywhere if you have right knowledge!
+> Only the name is ChatCord but can be used anywhere if you have right knowledge!
 
 # Quick Example
 
