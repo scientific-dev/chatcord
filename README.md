@@ -29,7 +29,7 @@ chat('Hey! How are you!').then(reply => {
 ```
 
 # Credits
-
+ 
 Made by Science Spot and Rup
 
 ### Support Discord Servers
