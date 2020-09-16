@@ -1,8 +1,9 @@
 {
   "name": "chatcord",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple NPM Package to make easy Chat Bot!",
   "main": "index.js",
+  "types": "index.d.ts",
   "keywords": ["quick.chat", "quickchat", "chatcord.js", "chatcord"],
   "author": "science_spot_codes",
   "contributors": ["gogeta"],
