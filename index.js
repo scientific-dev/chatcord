@@ -67,6 +67,6 @@ class Client{
 }
 
 module.exports = {
-  version: '0.0.1',
+  version: require('package.json').version,
   Client: Client
 }
