@@ -14,6 +14,7 @@ class Client{
     if(options.sqlite){
       db.options({filename: 'chat.sqlite'})
       this.push = (content) => {
+        content = content.split('"').join("'")
         db.push('chat', content)
         this.chats.push(content)
       }
