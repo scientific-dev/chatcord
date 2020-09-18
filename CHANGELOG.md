@@ -2,7 +2,7 @@
 
 ---
 
-## v0.0.4
+## v0.0.5
 
 **Important Updates:**
 - Removed Edb to prevent slowing down so backup option also vanishes!
