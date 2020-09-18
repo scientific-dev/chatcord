@@ -1,11 +1,7 @@
 export const version: string;
 
-interface optionType{
-  sqlite: boolean
-}
-
 export class Client{
-  public options: optionType;
-
+  constructor();
+  
   public chat(stimulus: string): string;
 }
