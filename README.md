@@ -5,7 +5,7 @@ Chatcord is a quick way to easily make your own Chat Bot with Javascript Easily 
 > Only the name is ChatCord but can be used anywhere if you have right knowledge!
 
 # Quick Example
-
+ 
 ```js
 // Import Package
 const chatcord = require('chatcord')
