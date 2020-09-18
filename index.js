@@ -1,26 +1,13 @@
 const superagent = require("superagent");
 const md5 = require("md5");
-const db = require('enhanced.db')
 
 class Client{
-  constructor(options={}){
+  constructor(){
     this.chats = []
     this.cookies = null
-    this.options = options
 
     this.push = (content) => this.chats.push(content)
     this.get = () => {return this.chats}
-
-    if(options.sqlite){
-      db.options({filename: 'chat.sqlite'})
-      this.push = (content) => {
-        content = content.split('"').join("'")
-        db.push('chat', content)
-        this.chats.push(content)
-      }
-      if(!db.get('chat')) db.set('chat', [])
-      this.get = () => {return db.get('chat')}
-    }
   }
 
   async chat(stimulus){
@@ -37,14 +24,13 @@ class Client{
       : escape(stimulus)
     }&`;
 
-    let reversethis = {}
-    reversethis.chats = this.get().reverse();
+    let reversedChat = this.get().reverse();
 
     for (let i = 0; i < this.get().length; i++) {
       payload += `vText${i + 2}=${
-        escape(reversethis.chats[i]).includes("%u")
-        ? escape(escape(reversethis.chats[i]).replace(/%u/g, "|"))
-        : escape(reversethis.chats[i])
+        escape(reversedChat[i]).includes("%u")
+        ? escape(escape(reversedChat[i]).replace(/%u/g, "|"))
+        : escape(reversedChat[i])
       }&`;
     }
 
