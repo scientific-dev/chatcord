@@ -2,6 +2,9 @@
 
 Chatcord is a quick way to easily make your own Chat Bot with Javascript Easily with https://www.cleverbot.com/
 
+This package is just for Entertainment Purpose
+Typescript Support added!
+
 > Only the name is ChatCord but can be used anywhere if you have right knowledge!
 
 # Quick Example
@@ -24,7 +27,7 @@ chat.chat('Hey! How are you!').then(reply => {
 Made by Science Spot and Rup
 
 ### Support Discord Servers
-- [Slime Hangout Server](https://discord.gg/tNVXCe9)
+- [Slime Developement Server](https://discord.gg/tNVXCe9)
 - [Decimal Developement Server](https://discord.gg/FrduEZd)
 
 ### GitHub Repo
