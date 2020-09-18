@@ -10,15 +10,8 @@ Chatcord is a quick way to easily make your own Chat Bot with Javascript Easily 
 // Import Package
 const chatcord = require('chatcord')
 
-// Set options
-const options = {
-  sqlite: false
-}
-// Options is optional
-// Sqlite will be false by default. It will store your chat data in chat.sqlite if its set to true or else will be stored in array which will be cleared on each restart of the programm!
-
 // Use Client Class
-const chat = new chatcord.Client(options)
+const chat = new chatcord.Client()
 
 chat.chat('Hey! How are you!').then(reply => {
   console.log(reply)
