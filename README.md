@@ -9,17 +9,34 @@ Typescript Support added!
 
 # Quick Example
  
+**Javascript:**
 ```js
 // Import Package
 const chatcord = require('chatcord')
 
 // Use Client Class
-const chat = new chatcord.Client()
+const client = new chatcord.Client()
 
-chat.chat('Hey! How are you!').then(reply => {
+client.chat('Hey! How are you!').then(reply => {
   console.log(reply)
   // The module will reply with the based on stimulus (1st parameter of the chat function!)
 })
+```
+
+**Typescript:**
+```ts
+// Import Package
+import * as chatcord from 'chatcord'
+
+// Use Client Class
+const client = new chatcord.Client()
+
+async function chat(msg: string):void {
+  console.log(await client.chat(msg))
+}
+
+chat('Hey! How are you!')
+// Will reply based on stimulus
 ```
 
 # Credits
