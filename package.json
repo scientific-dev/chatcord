@@ -1,6 +1,6 @@
 {
   "name": "chatcord",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Simple NPM Package to make easy Chat Bot!",
   "main": "index.js",
   "types": "index.d.ts",
