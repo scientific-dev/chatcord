@@ -44,7 +44,7 @@ chat('Hey! How are you!')
 Made by Science Spot and Rup
 
 ### Support Discord Servers
-- [Gogeta's Workshop Server](https://discord.gg/P2GyrRn4C5)
+- [Beerus's Planet](https://discord.gg/ddEmXUPCE4)
 - [Decimal Developement Server](https://discord.gg/FrduEZd)
 
 ### GitHub Repo
